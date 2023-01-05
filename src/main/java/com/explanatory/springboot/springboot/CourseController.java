@@ -8,12 +8,12 @@ import java.util.List;
 
 @RestController
 public class CourseController {
-
     @RequestMapping("/courses")
     public List<Course> retrieveAllCourses() {
         return Arrays.asList(
                 new Course(1, "Learn AWS", "explanatory"),
-                new Course(1, "Learn Devops", "explanatory")
+                new Course(1, "Learn Devops", "explanatory"),
+                new Course(1, "Learn Azure", "explanatory")
         );
     }
 
